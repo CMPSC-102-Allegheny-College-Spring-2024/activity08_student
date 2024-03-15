@@ -7,7 +7,7 @@ from sympy import FiniteSet
 from rich.console import Console
 import typer
 
-TODO = None
+
 # Group member Names
 # 1. Add Your Name Here
 # 2. Add Your Name Here
