@@ -16,7 +16,7 @@ Each person must turn in own activity using the code from group work. You will b
 
 Choose a theme (such as film, the arts, sciences, etc.) from which to select elements (such as names, or other) to use to create `list`s for the activity. Be creative! Each member will create own list of elements to share with the group by Discord DM-ing.
 
-In your `main.py`, hard-code the list of elements from each member of the group. The list should contain at least ten (10) elements related to your group's chosen theme. Write code to convert these `list`s of elements into `set`s using Python's `set()` function, or from Sympy's `FiniteSet()` function (choose one).
+In your `main.py`, hard-code the list of elements from each member of the group. The list should contain at least ten (10) elements related to your group's chosen theme. Write code to convert these `list`'s of elements into `set`'s using Python's `set()` function, or from Sympy's `FiniteSet()` function (choose one).
 
 Note: Decide how your elements will look in text. Spell your elements in one word comprised of lowercase characters, involving camel casing (i.e., "johnSmith", "marieCurie"), to avoid complications when working with strings.
 
