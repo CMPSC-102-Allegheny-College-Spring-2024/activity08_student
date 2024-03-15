@@ -1,0 +1,24 @@
+# --> check the Python program
+- setCalculator/setcalculator/main.py:
+  - description: Ensure that the main.py file exists in the setCalculator/setcalculator/ directory
+    check: ConfirmFileExists
+  - description: Complete all TODOs, remove the TODO markers in main.py
+    check: MatchFileFragment
+    options:
+      fragment: TODO
+      count: 0
+      exact: true
+  - description: Complete Add Your Name Here in main.py
+    check: MatchFileFragment
+    options:
+      fragment: Add Your Name Here
+      count: 0
+      exact: true
+
+
+# count number of commits in the GitHub repository
+- description: Have at least a specific minimum number of commits (5) in repository
+  check: CountCommits
+  options:
+    count: 5
+

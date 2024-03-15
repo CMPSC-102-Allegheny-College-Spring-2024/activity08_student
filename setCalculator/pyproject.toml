@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "setcalculator"
+version = "0.1.0"
+description = ""
+authors = ["Oliver Bonham-Carter <obonhamcarter@allegheny.edu>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+setcalculator = "setcalculator.main:cli"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = "^0.9.0"
+rich = "^13.7.1"
+black = "^24.2.0"
+sympy = "^1.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
