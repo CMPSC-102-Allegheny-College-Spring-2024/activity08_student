@@ -9,7 +9,7 @@ readme = "README.md"
 setcalculator = "setcalculator.main:cli"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 typer = "^0.9.0"
 rich = "^13.7.1"
 black = "^24.2.0"
